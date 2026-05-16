@@ -14,7 +14,7 @@ Here you'll find a variety of mini-games ranging from quirky physics-based chall
 Simply browse the games, click to play, and have fun! Feel free to contribute new games or experiments by submitting a pull request.
 
 ## About
-Created by Jer ([@aysail](https://github.com/aysail)) as a personal playground to experiment with web games and share joy.
+Created by Ayysail([@aysail](https://github.com/ayysail)) as a personal playground to experiment with web games and share joy.
 
 ---
 
@@ -22,20 +22,20 @@ Created by Jer ([@aysail](https://github.com/aysail)) as a personal playground t
 
 ---
 
-## 🎨 Modding Jer's Playground Games 
+   ## 🎨 Forking Jer's Playground Games 
 
-_To mod Jer’s Playground games, you’ll need to know a bit of HTML, CSS, and JavaScript—just enough to understand what you’re doing, not everything in-depth._
+_To mod Jer’s Forking games, you’ll need to know a bit of HTML, CSS, and JavaScript—just enough to understand what you’re doing, not everything in-depth._
 
-Modding is a way of adding new stuff to Jer’s Playground games — whether it’s something totally wild, a bug fix, or just a fun improvement you want to share.
+Forking is a way of adding new stuff to Jer’s Playground games — whether it’s something totally wild, a bug fix, or just a fun improvement you want to share.
 
 If you made something cool or fixed something broken, feel free to open a pull request!
 
 > ⚠️ **License**  
 > This project is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  
-> Feel free to remix, share, or mod — just **credit**, **don’t sell**, and **link back** to this repo!
+> Feel free to remix, share, or Fork — just **credit**, **don’t sell**, and **link back** to this repo!
 
 
-### 🛠️ How to Mod a Game
+### 🛠️ How to Fork a Game
 
 1. **Fork or clone the repo**:
    ```bash
