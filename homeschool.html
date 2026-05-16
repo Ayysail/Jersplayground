@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cool2000Site</title>
+
+<style>
+body{
+    background:#008080;
+    font-family:Tahoma, Verdana, sans-serif;
+    margin:0;
+    color:black;
+}
+
+#wrapper{
+    width:900px;
+    margin:20px auto;
+    background:silver;
+    border:4px ridge white;
+}
+
+header{
+    background:navy;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-bottom:4px groove white;
+}
+
+header h1{
+    margin:0;
+    font-size:42px;
+    text-shadow:2px 2px black;
+}
+
+marquee{
+    background:black;
+    color:lime;
+    padding:5px;
+    font-weight:bold;
+}
+
+nav{
+    background:#c0c0c0;
+    padding:10px;
+    text-align:center;
+    border-bottom:3px groove white;
+}
+
+nav a{
+    background:blue;
+    color:white;
+    text-decoration:none;
+    padding:6px 14px;
+    margin:4px;
+    display:inline-block;
+    border:2px outset white;
+    font-weight:bold;
+}
+
+nav a:hover{
+    background:red;
+}
+
+.content{
+    display:flex;
+}
+
+.sidebar{
+    width:220px;
+    background:#dcdcdc;
+    padding:10px;
+    border-right:3px groove white;
+}
+
+.sidebar h2{
+    background:navy;
+    color:white;
+    padding:5px;
+    font-size:18px;
+}
+
+.main{
+    flex:1;
+    padding:20px;
+}
+
+.box{
+    background:white;
+    border:3px ridge gray;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+button{
+    background:silver;
+    border:2px outset white;
+    padding:8px 14px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:active{
+    border:2px inset white;
+}
+
+.counter{
+    background:black;
+    color:lime;
+    display:inline-block;
+    padding:6px 10px;
+    font-family:Courier New, monospace;
+    margin-top:10px;
+}
+
+footer{
+    background:navy;
+    color:white;
+    text-align:center;
+    padding:10px;
+    border-top:4px groove white;
+}
+
+.blink{
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity:0;
+    }
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+<header>
+    <h1>🔥 Cool2000Site 🔥</h1>
+    <p>The coolest website on the internet!!!</p>
+</header>
+
+<marquee scrollamount="8">
+WELCOME TO MY WEBSITE • BEST VIEWED ON INTERNET EXPLORER • UNDER CONSTRUCTION 🚧
+</marquee>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">Downloads</a>
+    <a href="#">Guestbook</a>
+</nav>
+
+<div class="content">
+
+<div class="sidebar">
+    <h2>Links</h2>
+
+    <ul>
+        <li><a href="#">My Blog</a></li>
+        <li><a href="#">Flash Games</a></li>
+        <li><a href="#">Cool Stuff</a></li>
+    </ul>
+
+    <h2>Status</h2>
+
+    <p class="blink">ONLINE NOW!</p>
+
+    <div class="counter" id="counter">
+        Visitors: 0000
+    </div>
+</div>
+
+<div class="main">
+
+    <div class="box">
+        <h2>Welcome!</h2>
+
+        <p>
+            Welcome to my awesome website made with pure HTML,
+            CSS, and JavaScript like it's the year 2004.
+        </p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+    </div>
+
+    <div class="box">
+        <h2>News</h2>
+
+        <ul>
+            <li>✔ Added new games page</li>
+            <li>✔ Added visitor counter</li>
+            <li>✔ Site updated 5/16/2026</li>
+        </ul>
+    </div>
+
+</div>
+
+</div>
+
+<footer>
+    © 2004 Cool2000Site • Made with Notepad💀
+    © 2004  Ayysail • Made with VS Code💀
+</footer>
+
+</div>
+
+<script>
+function showMessage(){
+    alert("Thanks for visiting my cool website 😎");
+}
+
+let visits = localStorage.getItem("visits");
+
+if(!visits){
+    visits = 0;
+}
+
+visits++;
+
+localStorage.setItem("visits", visits);
+
+document.getElementById("counter").innerText =
+"Visitors: " + String(visits).padStart(4, "0");
+</script>
+
+</body>
+</html>
