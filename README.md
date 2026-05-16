@@ -104,3 +104,16 @@ If your mod works and you want it added:
 Let’s make this playground even weirder, sillier, and more awesome! 🎉
 
 
+<!--
+This is a tutorial to add a new game. Look below:
+
+<a href="games/newgame.html" class="game-card" data-tags="tag1 tag2">
+  <div class="card-emoji">🎲</div> <!-- Change the emoji to fit your game -->
+  <h2>New Game Title</h2>
+  <p class="tags">#tag1 #tag2</p>
+</a>
+
+Copy and tweak this. Add the tags also.
+-->
+
+
